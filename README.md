@@ -1,6 +1,6 @@
 # Churn-Signal Foundations — EDA & Data Interrogation
 
-The exploratory work behind a churn-prediction effort. I didn't train the production models — I did the groundwork that decides whether they can be trusted: choosing the unit of analysis, defining the label, and testing assumptions before anyone built on them. **Databricks / PySpark**, a large multi-year transactional dataset.
+The exploratory work behind a churn-prediction effort. I didn't train the production models yet — I did the groundwork that decides whether they can be trusted: choosing the unit of analysis, defining the label, and testing assumptions before anyone built on them. **Databricks / PySpark**, a large multi-year transactional dataset.
 
 > *Methodology only. Every schema, number, and example is generic and illustrative — no employer, dataset, or business detail is described or inferable.*
 
