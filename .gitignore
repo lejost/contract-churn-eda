@@ -1,0 +1,7 @@
+# Only the case study and sanitized notebooks belong in this repo.
+# Block everything else as a safety net against accidental data leaks.
+*
+!.gitignore
+!README.md
+!notebooks/
+!notebooks/*.md
