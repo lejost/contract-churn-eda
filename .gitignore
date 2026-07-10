@@ -4,4 +4,4 @@
 !.gitignore
 !README.md
 !notebooks/
-!notebooks/*.md
+!notebooks/*.py

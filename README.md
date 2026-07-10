@@ -1,8 +1,8 @@
 # Churn-Signal Foundations — EDA & Data Interrogation
 
-The exploratory work behind a churn-prediction effort. I didn't train the production models — I did the groundwork that decides whether they can be trusted: choosing the unit of analysis, defining the label, and testing assumptions before anyone built on them. **Databricks / PySpark**, a large multi-year transactional dataset.
+The exploratory work behind a churn-prediction effort. I didn't train the production models — I did the groundwork that decides whether they can be trusted: choosing the unit of analysis, defining the label, and testing assumptions before anyone built on them. **Python · PySpark · Databricks**, on a large multi-year transactional dataset.
 
-> *Methodology only. Every schema, number, and example is generic and illustrative — no employer, dataset, or business detail is described or inferable.*
+> *Methodology only. Every schema, number, and example is generic and illustrative — no employer, dataset, or business detail is described or inferable. These 6 notebooks distil the techniques from a ~10-notebook analysis into representative, self-contained examples.*
 
 ## The core idea
 
@@ -29,10 +29,12 @@ Negatives, placeholder values, missing entries, and apparent duplicates all *loo
 
 ```
 notebooks/
-├── 01_anonymisation.md              privacy-first surrogate keys
-├── 02_unit_of_analysis_stress_test.md   validating the grouping key
-├── 03_data_quality_investigations.md    "don't drop it, understand it"
-└── 04_trajectory.md                 time-aware trend, feature-readiness
+├── 01_anonymisation.py                  privacy-first surrogate keys
+├── 02_unit_of_analysis_stress_test.py   validating the grouping key
+├── 03_data_quality_investigations.py    "don't drop it, understand it"
+├── 04_trajectory.py                     time-aware trend, feature-readiness
+├── 05_schema_profiling.py               characterising an unknown table
+└── 06_tiered_value_classification.py    separating outliers from errors
 ```
 
-The notebooks show the technique on an abstract schema — illustrative, not runnable against any real dataset.
+The notebooks are Python / PySpark, shown on an abstract schema — illustrative of technique, not runnable against any real dataset.
